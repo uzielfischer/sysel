@@ -256,71 +256,7 @@
     background-size: cover;
 }
 
-
-/*** Team ***/
-.team-text {
-    position: absolute;
-    width: 75%;
-    bottom: 30px;
-    left: 0;
-    transition: .5s;
-}
-
-.team-item:hover .team-text {
-    width: 100%;
-}
-
-.team-text * {
-    transition: .5s;
-}
-
-.team-item:hover .team-text * {
-    letter-spacing: 2px;
-}
-
-.img_team{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.img_team img{
-    width: 100%;
-}
-
-
-/*** Testimonial ***/
-.testimonial-carousel .owl-item img {
-    width: 100px;
-    height: 100px;
-}
-
-.testimonial-carousel .owl-nav {
-    margin-top: 30px;
-    display: flex;
-    justify-content: start;
-}
-
-.testimonial-carousel .owl-nav .owl-prev,
-.testimonial-carousel .owl-nav .owl-next {
-    margin-right: 15px;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--dark);
-    border: 2px solid var(--primary);
-    border-radius: 50px;
-    font-size: 18px;
-    transition: .5s;
-}
-
-.testimonial-carousel .owl-nav .owl-prev:hover,
-.testimonial-carousel .owl-nav .owl-next:hover {
-    color: #FFFFFF;
-    background: var(--primary);
-}
-
+/*clase creada directamente en html para el color de los h1, h6 y p*/
 
 /*** Footer ***/
 .footer {
