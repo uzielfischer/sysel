@@ -58,20 +58,6 @@
     font-weight: normal;
 }
 
-/*LOGO*/
-.tit{
-    font-family: sysel_font;
-}
-@font-face {
-    font-family: sysel;
-    src: url("sky-bold.ttf");
-}
-@font-face {
-	font-family: sysel_font;
-	src: url("sky-bold.ttf");
-}
-
-
 /*** Navbar ***/
 .navbar.sticky-top {
     top: -100px;
